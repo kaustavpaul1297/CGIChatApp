@@ -6,10 +6,12 @@ import { AuthProvider } from "../contexts/AuthContext";
 
 import Chats from "./Chats";
 import Login from "./Login";
+import ParticleBackground from "./ParticleBackground";
 
 function App() {
   return (
     <div style={{ fontFamily: "Avenir" }}>
+      <ParticleBackground />
       <Router>
         <AuthProvider>
           <Switch>
